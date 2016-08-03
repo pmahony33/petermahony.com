@@ -1,0 +1,74 @@
+body {background-image: url("background.jpg");
+  }
+
+  .imageBox{width:100%;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: rgb(59, 198, 197);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 25%;
+    text-align: left;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 25%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: solid 1px lightgrey;
+}
+
+/* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rbg(0, 160, 160);
+  }
+  .current-page{ background-color: rgb(59, 198, 197);
+                color: white;
+  }
+
+  #nyt{
+    border-style: outset;
+    border-width: 5px;
+      border-color: rgb(0,40,104);
+      width: 40%;
+      vertical-align: text-top;
+      margin: 4%;
+    }
+  #wsj{
+      border-style: outset;
+      border-width: 5px;
+      border-color: rgb(191,10,48);
+      width: 40%;
+      vertical-align: text-top;
+      margin: 4%;
+    }
